@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ FORM</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="head">
+        <h1>Multiple Choice Questions</h1>
+    </header>
+
+    <!--/questions-->
+    <form id="quiz" name="quiz">
+        <div>
+            <h3> Q1.HTML stands for ?</h3>
+            <p><input type="radio" name="question1" value="Hydro transfer mail location">Hydro transfer mail location
+            </p>
+            <p><input type="radio" name="question1" value="Hetero transmission milage list">Hetero transmission milage
+                list
+            </p>
+            <p><input type="radio" name="question1" value="Hyper text markup language">Hyper text markup language</p>
+            <p><input type="radio" name="question1" value="Hindustan transmission money loss">Hindustan transmission
+                money loss</p>
+        </div>
+        <div>
+            <h3> Q2.Javascript is an _______ language? </h3>
+            <p><input type="radio" name="question2" value="Object-Oriented">Object-Oriented</p>
+            <p><input type="radio" name="question2" value="Object-Based">Object-Based</p>
+            <p><input type="radio" name="question2" value="Procedural">Procedural</p>
+            <p><input type="radio" name="question2" value="None of the above">None of the above</p>
+        </div>
+
+        <div>
+            <h3>Q3.How can a datatype be declared to be a constant type?</h3>
+            <p><input type="radio" name="question3" value="Const">Const</p>
+            <p><input type="radio" name="question3" value="Var">Var</p>
+            <p><input type="radio" name="question3" value="Let">Let</p>
+            <p><input type="radio" name="question3" value="constant">constant</p>
+        </div>
+
+        <div>
+            <h3>Q4.Which function is used to serialize an object into a JSON string in Javascript ?</h3>
+            <p><input type="radio" name="question4" value="Stringify()">Stringify()</p>
+            <p><input type="radio" name="question4" value="Parse()">Parse()</p>
+            <p><input type="radio" name="question4" value="Convert()">Convert()</p>
+            <p><input type="radio" name="question4" value="None of the above">None of the above</p>
+        </div>
+
+        <div>
+            <h3>Q5.Which of the following are closures in Javascript?</h3>
+            <p><input type="radio" name="question5" value="Variables">Variables</p>
+            <p><input type="radio" name="question5" value="Functions">Functions</p>
+            <p><input type="radio" name="question5" value="Objects">Objects</p>
+            <p><input type="radio" name="question5" value="None of the above">None of the above</p>
+        </div>
+
+        <footer>
+            <input type="button" id="button" value="Submit" onclick="check()">
+        </footer>
+    </form>
+
+    <div>
+        <h3 id="finalcall"></h3>
+        <p id="result">
+        </p>
+
+    </div>
+
+    <script src="index.js"> </script>
+</body>
+
+</html>
